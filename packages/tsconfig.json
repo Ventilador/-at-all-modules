@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "tsBuildInfoFile": "./../node_modules/.cache/unused/packages.info"
+    },
+    "exclude": ["**"],
+    "references": [{
+            "path": "./bin"
+        },
+        {
+            "path": "./classes"
+        },
+        {
+            "path": "./constants"
+        },
+        {
+            "path": "./core"
+        },
+        {
+            "path": "./path-utils"
+        },
+        {
+            "path": "./plugins"
+        },
+        {
+            "path": "./utils"
+        }
+    ]
+}

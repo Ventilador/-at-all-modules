@@ -1,0 +1,11 @@
+{
+    "name": "@webpack-multi/plugins",
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "minified": "index.min.js",
+    "repository": "https://github.com/Ventilador/-at-all-modules.git",
+    "author": "Pedro Pertino <pedropertino@gmail.com>",
+    "license": "MIT",
+    "private": true,
+    "workspaces": []
+}

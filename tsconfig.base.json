@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2019",
+        "lib": [
+            "es2019"
+        ],
+        "baseUrl": "./",
+        "paths": {
+            "@webpack-multi/classes": ["./packages/classes/src", ],
+            "@webpack-multi/plugins": ["./packages/plugins/src", ],
+            "@webpack-multi/utils": ["./packages/utils/src"],
+            "@webpack-multi/path-utils": ["./packages/path-utils/src"],
+            "@webpack-multi/constants": ["./packages/constants/src"],
+        },
+        "strict": true,
+        "alwaysStrict": true,
+        "declaration": true,
+        "forceConsistentCasingInFileNames": true,
+        "types": [
+            "node",
+            "webpack-multi"
+        ],
+        "composite": true,
+        "incremental": true,
+    }
+}

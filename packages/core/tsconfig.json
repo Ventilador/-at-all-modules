@@ -1,0 +1,14 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+        "outDir": "./lib",
+        "tsBuildInfoFile": "./lib/build.info",
+        "rootDir": "./src"
+    },
+    "references": [{
+        "path": "../constants"
+    }],
+    "include": [
+        "./src/*"
+    ]
+}

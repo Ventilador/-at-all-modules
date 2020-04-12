@@ -1,0 +1,22 @@
+{
+  "name": "@at/all-modules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Ventilador/-at-all-modules.git",
+  "author": "Pedro Pertino <pedropertino@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "clean":"rimraf packages/**/lib"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^13.11.0",
+    "@types/webpack": "^4.41.10",
+    "@types/webpack-sources": "^0.1.7",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  }
+}

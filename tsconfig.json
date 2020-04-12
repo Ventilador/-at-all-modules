@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "tsBuildInfoFile": "./node_modules/.cache/unused/root.info"
+    },
+    "exclude": ["**"],
+    "references": [{
+        "path": "./packages/tsconfig.json"
+    }]
+}

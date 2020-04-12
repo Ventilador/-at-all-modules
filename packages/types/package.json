@@ -1,0 +1,8 @@
+{
+	"name": "@types/webpack-multi",
+	"version": "0.0.1",
+	"description": "Components for AxiomaInc",
+	"author": "Axioma Inc",
+	"private": true,
+	"typings": "src/index.d.ts"
+}
